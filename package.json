@@ -11,5 +11,10 @@
   "license": "ISC",
   "bin": {
     "watchit": "index.js"
+  },
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
   }
 }
