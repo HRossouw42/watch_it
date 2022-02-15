@@ -10,7 +10,7 @@ I wanted to understand handling file system changes & child processes with node 
 ## Instructions
 
 1. Link project directory via `npm link`
-2. `watchit foo.js`
+2. `watchit foo.js` where `foo.js` is the `index.js` of the web project you want to refresh
 
 - will default to `index.js` in the current directory if inputed `.js` file doesn't exist
 - thanks to [Caporal](https://www.npmjs.com/package/caporal) you can use `watchit -h` to see the help menu
